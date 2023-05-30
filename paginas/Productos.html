@@ -41,10 +41,30 @@
         </nav>
     </head>
     <main>
-        <p class="fotos-productos"><img src="../Img/Creatina.jpeg" width="320px" height="300px" alt="creatina 1"></p>
-        <p class="fotos-productos"><img src="../Img/Creatina 2.jpeg" width="320px" height="300px" alt="creatina 2"></p>
-        <p class="fotos-productos"><img src="../Img/proteina.jpeg" width="320px" height="300px" alt="proteina 1"></p>
-        <p class="fotos-productos"><img src="../Img/Proteina 2.jpg" width="320px" height="300px" alt="proteina 2"></p>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner .bg-light-subtle">
+              <div class="carousel-item active">
+                <img src="../Img/creatina1.png" class="d-block img-fluid rounded mx-auto" alt="creatina1">
+              </div>
+              <div class="carousel-item">
+                <img src="../Img/creatina2.png" class="d-block img-fluid rounded mx-auto" alt="creatina2">
+              </div>
+              <div class="carousel-item">
+                <img src="../Img/proteina1.png" class="d-block img-fluid rounded mx-auto" alt="proteina1">
+              </div>
+              <div class="carousel-item">
+                <img src="../Img/proteina2.png" class="d-block img-fluid rounded mx-auto" alt="proteina2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn btn-outline-danger" aria-hidden="true"></span>
+              <span class="visually-hidden btn btn-outline-danger">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn btn-outline-danger" aria-hidden="true"></span>
+              <span class="visually-hidden btn btn-outline-danger">Next</span>
+            </button>
+          </div>
     </main>
     <footer>
         <div class="container text-center text-md-start">
